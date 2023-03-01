@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Emma Laura Rodriguez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Lora:ital,wght@0,400;0,500;1,400&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class = "centrar">
+        <header>
+            <nav>
+                <ul>
+                <li><a href="#cab-1">Datos Personales</a></li>
+                <li><a href="#cab-2">Presentacion</a></li>
+                <li><a href="#cab-3">Estudios cursados</a></li>
+                <li><a href="#cab-4">Experiencia Laboral</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <img class ="imagen" src="https://randomuser.me/api/portraits/women/63.jpg">
+                <h1>Emma Laura Rodriguez</h1>
+                <h3>Auxiliar Contable e Impositiva</h3>
+                <p class = "lineaCentral"></p>
+            </section>
+        </br>
+            <section>
+                <div id ="cab-1">
+                    <button type="button" id="buttonMdp" onclick="mostrar('DatPers','buttonMdp','buttonOdp')";>Mostrar Datos Personales</button>
+                    <button type="button" id="buttonOdp" onclick="ocultar('DatPers','buttonMdp','buttonOdp')";>Ocultar Datos Personales</button>
+                    <ul id="DatPers">
+                        <li>Nacionalidad: Colombiana</li>
+                        <li>Domicilio: Libertad 184 - Bogotá CP: 110141</li>
+                        <li>Fecha Nac.: 01/07/1990</li>
+                        <li>Tel.: +57 310 8541 15</li>
+                        <li>e-mail: RodriEmma92@gmail.com</li>
+                    </ul>
+                </div>
+            </section>
+        </br>
+            <section>
+                <div id ="cab-2">
+                    <button type="button" id="buttonMPres" onclick="mostrar('detalle','buttonMPres','buttonOPres')";>Mostrar Presentación</button>
+                    <button type="button" id="buttonOPres" onclick="ocultar('detalle','buttonMPres','buttonOPres')";>Ocultar Presentación</button>
+                    <ul id="detalle">
+                        <li>Tengo un alto sentido del compromiso y responsabilidad por lo que puedo garantizar 
+                            que la tarea que me sea asignada será gestionada con diligencia. No obstante, cuando 
+                            en ocasiones surgen dificultades que puedan entorpecer el desarrollo de la actividad, 
+                            propongo soluciones y alternativas útiles para acelerar los tiempos de respuesta.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </br>
+            <section>
+                <div id ="cab-3">
+                    <button type="button" id="buttonMfa" onclick="mostrar('FormAcad','buttonMfa','buttonOfa')";>Mostrar Estudios cursados</button>
+                    <button type="button" id="buttonOfa" onclick="ocultar('FormAcad','buttonMfa','buttonOfa')";>Ocultar Estudios cursados</button>
+                    <ul id="FormAcad">
+                        <li>2014 Título de Grado en Administración y Dirección de Empresas
+                            Universida de Bogotá, Colombia
+                            Septiembre de 2008 - Junio de 2012
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </br>
+            <section>
+                <div id ="cab-4">
+                    <button type="button" id="buttonMEL" onclick="mostrar('ExpLab','buttonMEL','buttonOEL')";>Mostrar Experiencia Laboral</button>
+                    <button type="button" id="buttonOEL" onclick="ocultar('ExpLab','buttonMEL','buttonOEL')";>Ocultar Experiencia Laboral</button>
+                    <ul id ="ExpLab">
+                        <li>
+                            09/2019 - presente Contable, Centralia S.A., Las Palmas
+
+                            Realización y supervisión de cierres contables
+                            Ejecución de pagos y cobros
+                            Control de tesorería
+                            Gestiones con entidades financieras
+                            Reporting financiero
+                            Apoyo en la realización de presupuestos
+                        </li>    
+                    <br>
+                        <li>
+                            09/2017 - 09/2019 Técnico Contable, Industrias Mayores, Las Palmas
+                            
+                            Gestión de remesas bancarias y pago a proveedores
+                            Introducción de asientos contables
+                            Conciliaciones bancarias
+                            Facturación y cierres fiscales
+                            Análisis contable
+                        </li>
+                    <br>
+                        <li>
+                            09/2017 - 07/2014 Auxiliar Contable, Asesoría Hermanos Ramírez, Las Palmas
+                            
+                            Elaboración y revisión de facturas
+                            Conciliaciones bancarias
+                            Asientos contables
+                            Confección de impuestos
+                            Tramitación de subvenciones
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>

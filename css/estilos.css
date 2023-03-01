@@ -1,0 +1,66 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Lora', serif;
+    }
+
+#DatPers, #buttonOdp, #detalle, #buttonOPres, #FormAcad, #buttonOfa, #ExpLab, #buttonOEL{
+    display: block;}
+
+#buttonMdp, #buttonMPres, #buttonMfa, #buttonMEL{
+    display: none;}
+
+button {
+    background-color: rgba(73, 110, 214, 0.356);}
+
+header{
+    position: sticky;
+    margin-top: 20px;
+    top: 0;
+    background-color: rgba(224, 239, 241, 0.952);}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 8px 40px;
+    background-color: rgba(132, 193, 243, 0.87);}
+
+body {
+background: url('https://i.pinimg.com/564x/88/db/d4/88dbd4cdd6f320642e0b7f4fff0bf04b.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+
+h1 {
+    color:rgb(4, 56, 56);
+    font-weight: 700;}
+
+h2 {
+    color:rgb(8, 92, 92);
+    font-weight: 500;}
+
+h3 {
+    color:rgb(4, 56, 56);
+    font-weight: 400;}
+
+li {
+    color:rgb(11, 48, 26);
+    font-weight: 500;}
+
+.imagen {
+    display:flex;
+    gap: 90px;}
+
+
+.centrar {
+    max-width: 70%;
+    margin: 0% auto;}
+
+.lineaCentral {
+    border-bottom: solid rgb(30, 90, 160);}
+
